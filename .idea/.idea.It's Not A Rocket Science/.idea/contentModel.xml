@@ -4,8 +4,27 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Materials" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="CameraColorRampShader.shader" t="Include" />
+            <e p="MobileDiffuseWithLightEstimation.shader" t="Include" />
+            <e p="MobileSpecularWithLightEstimation.shader" t="Include" />
+            <e p="OcclusionImageEffect.shader" t="Include" />
+            <e p="PlaneGrid.shader" t="Include" />
+            <e p="PointCloud.shader" t="Include" />
+            <e p="TransparentShadow.shader" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
+          <e p="AppController.cs" t="Include" />
+          <e p="Extensions" t="Include">
+            <e p="Vector2Extensions.cs" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="Singleton.cs" t="Include" />
+          </e>
           <e p="SpawnObjectOnPlane.cs" t="Include" />
+          <e p="UIController.cs" t="Include" />
         </e>
       </e>
       <e p="It's Not A Rocket Science.sln" t="IncludeFlat" />

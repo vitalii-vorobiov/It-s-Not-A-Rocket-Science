@@ -29,7 +29,10 @@ public class SpawnObjectOnPlane : MonoBehaviour {
 
     private void Update() {
         if (!TryGetTouchPosition(out Vector2 touchPosition)) return;
-        if (raycastManager.Raycast(touchPosition, s_hits, TrackableType.PlaneWithinPolygon)) {
+
+        bool isOverUi = touchPosition.IsPointOverUiObject();
+
+        if (!isOverUi && raycastManager.Raycast(touchPosition, s_hits, TrackableType.PlaneWithinPolygon)) {
             var hitPose = s_hits[0].pose;
             if (spawnedPrefab is null) {
                 spawnedPrefab = Instantiate(prefab, hitPose.position, hitPose.rotation);
@@ -37,7 +40,7 @@ public class SpawnObjectOnPlane : MonoBehaviour {
                 var t = spawnedPrefab.transform;
                 t.position = hitPose.position;
                 t.rotation = hitPose.rotation;
-            }
+            }            
         }
     }
 }
