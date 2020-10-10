@@ -8,6 +8,6 @@ public class ChangeParentManager : MonoBehaviour
     [PunRPC]
     void SetBuldingCoreAsParent(){
 		Debug.Log ("RPC Test");
-		gameObject.transform.SetParent(GameObject.FindWithTag("BindingCore").transform);
+		transform.SetParent(GameObject.FindWithTag("BindingCore").transform);
 	}
 }

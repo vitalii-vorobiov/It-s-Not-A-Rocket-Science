@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 192803371316608810}
   - component: {fileID: 7466263225924779172}
   - component: {fileID: 8439297847372788201}
+  - component: {fileID: -1213095094362035453}
   m_Layer: 0
   m_Name: Detail_Plate
   m_TagString: Draggable
@@ -174,5 +175,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: da271437e42f1793cb6300096a8d9663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1213095094362035453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4369606072844645478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49634084a8c74fa4ba02b77d0566315c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

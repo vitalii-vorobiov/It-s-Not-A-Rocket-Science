@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 4709988648212586637}
   - component: {fileID: 3759135950355640613}
   - component: {fileID: 8678506575582646695}
+  - component: {fileID: -5989305452229492147}
   m_Layer: 0
   m_Name: AR_PlayerController
   m_TagString: Untagged
@@ -261,6 +262,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9545b734c4c09a1c0b7bbe461a0ac041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5989305452229492147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105747213904977138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49634084a8c74fa4ba02b77d0566315c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7340145023300778905

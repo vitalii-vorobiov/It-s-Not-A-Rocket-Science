@@ -6,6 +6,7 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ChangeOrigin.cs" t="Include" />
         <e p="ChangeParentManager.cs" t="Include" />
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
