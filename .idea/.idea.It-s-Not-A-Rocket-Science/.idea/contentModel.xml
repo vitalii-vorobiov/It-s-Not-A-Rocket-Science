@@ -8,6 +8,17 @@
       <e p="Assets" t="Include">
         <e p="ChangeOrigin.cs" t="Include" />
         <e p="ChangeParentManager.cs" t="Include" />
+        <e p="Materials" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="CameraColorRampShader.shader" t="Include" />
+            <e p="MobileDiffuseWithLightEstimation.shader" t="Include" />
+            <e p="MobileSpecularWithLightEstimation.shader" t="Include" />
+            <e p="OcclusionImageEffect.shader" t="Include" />
+            <e p="PlaneGrid.shader" t="Include" />
+            <e p="PointCloud.shader" t="Include" />
+            <e p="TransparentShadow.shader" t="Include" />
+          </e>
+        </e>
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
             <e p="Code" t="Include">
@@ -372,16 +383,27 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ARController.cs" t="Include" />
           <e p="AR_PlayerManager.cs" t="Include" />
           <e p="AR_Player_Controller.cs" t="Include" />
+          <e p="AppController.cs" t="Include" />
           <e p="ComponentCollisionRegistry.cs" t="Include" />
           <e p="DetailsSpawner.cs" t="Include" />
+          <e p="DraggableObject.cs" t="Include" />
+          <e p="Extensions" t="Include">
+            <e p="Vector2Extensions.cs" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="Singleton.cs" t="Include" />
+          </e>
           <e p="Launcher.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />
           <e p="PlayerListItem.cs" t="Include" />
           <e p="RoomListItem.cs" t="Include" />
           <e p="RoomManager.cs" t="Include" />
+          <e p="TestRayCast.cs" t="Include" />
+          <e p="UIController.cs" t="Include" />
           <e p="WrenchComponent.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
