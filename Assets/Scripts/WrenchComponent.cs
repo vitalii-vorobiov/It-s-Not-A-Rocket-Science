@@ -50,7 +50,7 @@ public class WrenchComponent : MonoBehaviour
                         {
                             PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Bolt"), hitList[0].point,
                                 Quaternion.LookRotation(hitList[0].normal) *
-                                Quaternion.AngleAxis(-90, new Vector3(1, 0, 0)));
+                                Quaternion.AngleAxis(-90, new Vector3(1, 0, 0))).GetComponent<PhotonView>().RPC("SetBuldingCoreAsParent", RpcTarget.AllBuffered);
                         }
                     }
 
