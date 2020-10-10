@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6298135065946129708}
   m_Layer: 0
   m_Name: MainGame
-  m_TagString: Untagged
+  m_TagString: CustomOrigin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -449,15 +449,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e99ad2e385494ec1b77c48a8603c627, type: 3}
---- !u!1 &8018957395111903442 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e99ad2e385494ec1b77c48a8603c627,
-    type: 3}
-  m_PrefabInstance: {fileID: 7172095185326587267}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7206568571975195240 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5e99ad2e385494ec1b77c48a8603c627,
+    type: 3}
+  m_PrefabInstance: {fileID: 7172095185326587267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8018957395111903442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e99ad2e385494ec1b77c48a8603c627,
     type: 3}
   m_PrefabInstance: {fileID: 7172095185326587267}
   m_PrefabAsset: {fileID: 0}

@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/PhotonSyncronisationScene.unity
     guid: bc0aa28925ab9ebf9a3737245455afab
   - enabled: 1
-    path: Assets/Scenes/PhotonSyncGame.unity
-    guid: 230f912cbed06bd9090c3d01ef0440d6
+    path: Assets/Scenes/Main.unity
+    guid: 0fd6c7db234304b7199ad020a732854c
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e8f80b2f020d7405d8081f94e75d536e,
       type: 2}

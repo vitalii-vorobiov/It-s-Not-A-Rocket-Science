@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -35,6 +37,13 @@ public class UIController : Singleton<UIController> {
         setupPanel.SetActive(false);
         settingsPanel.SetActive(false);
         gamePanel.SetActive(true);
+        
+        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerManager"), Vector3.zero, Quaternion.identity);
+
+        if (PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "BindingCore"), Vector3.zero, Quaternion.identity);
+        }
     }
 
     public void StartSceneSetup() {
