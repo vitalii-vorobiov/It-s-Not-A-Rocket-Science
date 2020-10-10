@@ -8,7 +8,7 @@ using UnityEngine;
 public class DetailsSpawner : MonoBehaviour
 {
     [SerializeField] private string prefabName;
-    private GameObject currentInstantiatedGO;
+    public GameObject currentInstantiatedGO;
     // void Start()
     // {
     //     currentInstantiatedGO = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", prefabName), transform.position, Quaternion.identity);
