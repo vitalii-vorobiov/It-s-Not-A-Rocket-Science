@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public static class Vector2Extensions
-{
+public static class Vector2Extensions {
     public static bool IsPointOverUiObject(this Vector2 pos) {
         if (EventSystem.current.IsPointerOverGameObject()) {
             return false;
@@ -16,6 +15,14 @@ public static class Vector2Extensions
         List<RaycastResult> results = new List<RaycastResult>();
         EventSystem.current.RaycastAll(eventPosition, results);
 
-        return results.Count > 0;
+        foreach (var result in results) {
+            if (result.gameObject.transform.CompareTag("Transparent")) {
+                continue;
+            } else {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
