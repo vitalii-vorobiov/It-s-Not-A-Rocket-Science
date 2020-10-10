@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916148241736373487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.434}
+  m_LocalPosition: {x: 0, y: 0, z: 0.366}
   m_LocalScale: {x: 0.4587, y: 0.4587, z: 0.1511921}
   m_Children: []
   m_Father: {fileID: 7298345187307492630}
@@ -227,6 +227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 7340145023300778905}
+  mouseSpeed: 200
+  moveSpeed: 0.1
 --- !u!114 &4709988648212586637
 MonoBehaviour:
   m_ObjectHideFlags: 0

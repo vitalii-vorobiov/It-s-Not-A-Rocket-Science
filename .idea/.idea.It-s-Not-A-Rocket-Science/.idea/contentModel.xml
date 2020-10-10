@@ -7,6 +7,8 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AR_Player_Controller.cs" t="Include" />
+        <e p="ComponentCollisionRegistry.cs" t="Include" />
+        <e p="DetailsSpawner.cs" t="Include" />
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
             <e p="Code" t="Include">
@@ -410,6 +412,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="WrenchComponent.cs" t="Include" />
       </e>
       <e p="It-s-Not-A-Rocket-Science.sln" t="IncludeFlat" />
       <e p="PhotonChat.csproj" t="IncludeRecursive" />
