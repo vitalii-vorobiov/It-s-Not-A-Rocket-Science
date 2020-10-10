@@ -23,15 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67e5d195-16f5-46d6-9d28-3dc36408922e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainGame.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MainGame.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/AR_PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/AR_PlayerController.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR_Player_Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR_Player_Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RoomManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +62,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WrenchComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeParentManager.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeOrigin.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AR_Player_Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RoomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AR_Player_Controller.cs" />
       </list>
     </option>
   </component>
@@ -130,7 +125,7 @@
       <workItem from="1602312047826" duration="10512000" />
       <workItem from="1602346309295" duration="229000" />
       <workItem from="1602346899105" duration="9542000" />
-      <workItem from="1602359641489" duration="615000" />
+      <workItem from="1602359641489" duration="1239000" />
     </task>
     <servers />
   </component>

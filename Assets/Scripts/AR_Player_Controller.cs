@@ -16,6 +16,11 @@ public class AR_Player_Controller : MonoBehaviour
     {
         PV = GetComponent<PhotonView>();
         followedGameObject = GameObject.FindWithTag("MainCamera");
+        if (PV.IsMine)
+        {
+            gameObject.layer = 8;
+            transform.GetChild(0).gameObject.layer = 8;
+        }
     }
 
     private void Update()
