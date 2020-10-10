@@ -23,10 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67e5d195-16f5-46d6-9d28-3dc36408922e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR_Player_Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR_Player_Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/AR_PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/AR_PlayerController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ARController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ARController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ChangeParentManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ChangeOrigin.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,6 +69,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RoomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AR_Player_Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ARController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DragComponent.cs" />
       </list>
     </option>
   </component>
@@ -125,7 +131,7 @@
       <workItem from="1602312047826" duration="10512000" />
       <workItem from="1602346309295" duration="229000" />
       <workItem from="1602346899105" duration="9542000" />
-      <workItem from="1602359641489" duration="1239000" />
+      <workItem from="1602359641489" duration="3597000" />
     </task>
     <servers />
   </component>
@@ -158,9 +164,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="446" y="195" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1602281990002" />
-    <state x="656" y="272" width="672" height="678" key="search.everywhere.popup" timestamp="1602281067729">
+    <state x="656" y="272" width="672" height="678" key="search.everywhere.popup" timestamp="1602362499552">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="272" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1602281067729" />
+    <state x="656" y="272" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1602362499552" />
   </component>
 </project>

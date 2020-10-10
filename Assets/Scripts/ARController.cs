@@ -95,7 +95,7 @@ public class ARController : Singleton<ARController> {
     // Game Code 
     public void StartGame() {
         if (mainGameCoroutine == null) {
-            mainGameCoroutine = StartCoroutine(DragAndDropObjects());            
+            // mainGameCoroutine = StartCoroutine(DragAndDropObjects());            
         }
     }
 
@@ -139,35 +139,35 @@ public class ARController : Singleton<ARController> {
     //     }
     // }
     
-    private IEnumerator DragAndDropObjects() {
-        Vector2 centerPosition = new Vector2(Screen.width / 2, Screen.height / 2);
-        
-        while (true) {
-            Ray        ray = Camera.main.ScreenPointToRay(centerPosition);
-            RaycastHit hitObject;
-
-            if (Physics.Raycast(ray, out hitObject, Mathf.Infinity)) {
-                
-                if (TryGetTouchPosition(out Vector2 touchPosition)) {
-                    bool isOverUi = touchPosition.IsPointOverUiObject();
-                    if (!isOverUi) {
-                        Vector3 resultingPosition = camera.transform.position + camera.transform.forward * 1f;
-                        // hitObject.transform.position = Vector3.Lerp(hitObject.transform.position, resultingPosition, 1f * Time.deltaTime);
-                        if (hitObject.transform.CompareTag("Draggable")) {
-                            draggableObject = hitObject.transform.gameObject.GetComponent<DraggableObject>();
-                            draggableObject.Select();
-                            hitObject.transform.position = resultingPosition;
-                        }
-                    }                
-                }
-            } else {
-                if (draggableObject != null) {
-                    draggableObject.Deselect();
-                    draggableObject = null;
-                }
-            }
-            
-            yield return null;
-        }
-    }
+    // private IEnumerator DragAndDropObjects() {
+        // Vector2 centerPosition = new Vector2(Screen.width / 2, Screen.height / 2);
+        //
+        // while (true) {
+        //     Ray        ray = Camera.main.ScreenPointToRay(centerPosition);
+        //     RaycastHit hitObject;
+        //
+        //     if (Physics.Raycast(ray, out hitObject, Mathf.Infinity)) {
+        //         
+        //         if (TryGetTouchPosition(out Vector2 touchPosition)) {
+        //             bool isOverUi = touchPosition.IsPointOverUiObject();
+        //             if (!isOverUi) {
+        //                 Vector3 resultingPosition = camera.transform.position + camera.transform.forward * 1f;
+        //                 // hitObject.transform.position = Vector3.Lerp(hitObject.transform.position, resultingPosition, 1f * Time.deltaTime);
+        //                 if (hitObject.transform.CompareTag("Draggable")) {
+        //                     draggableObject = hitObject.transform.gameObject.GetComponent<DraggableObject>();
+        //                     draggableObject.Select();
+        //                     hitObject.transform.position = resultingPosition;
+        //                 }
+        //             }                
+        //         }
+        //     } else {
+        //         if (draggableObject != null) {
+        //             draggableObject.Deselect();
+        //             draggableObject = null;
+        //         }
+        //     }
+        //     
+        //     yield return null;
+        // }
+    // }
 }

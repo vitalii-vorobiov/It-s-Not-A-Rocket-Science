@@ -389,6 +389,7 @@
           <e p="AppController.cs" t="Include" />
           <e p="ComponentCollisionRegistry.cs" t="Include" />
           <e p="DetailsSpawner.cs" t="Include" />
+          <e p="DragComponent.cs" t="Include" />
           <e p="DraggableObject.cs" t="Include" />
           <e p="Extensions" t="Include">
             <e p="Vector2Extensions.cs" t="Include" />
