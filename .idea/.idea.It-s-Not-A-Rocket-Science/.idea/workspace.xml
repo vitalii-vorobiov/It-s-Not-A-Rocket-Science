@@ -23,13 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67e5d195-16f5-46d6-9d28-3dc36408922e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/AR_PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/AR_PlayerController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ARController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ARController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DragComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DragComponent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +126,7 @@
       <workItem from="1602312047826" duration="10512000" />
       <workItem from="1602346309295" duration="229000" />
       <workItem from="1602346899105" duration="9542000" />
-      <workItem from="1602359641489" duration="3597000" />
+      <workItem from="1602359641489" duration="3971000" />
     </task>
     <servers />
   </component>
