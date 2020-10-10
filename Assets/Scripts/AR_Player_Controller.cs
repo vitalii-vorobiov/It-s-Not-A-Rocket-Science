@@ -53,38 +53,25 @@ public class AR_Player_Controller : MonoBehaviour
             transform.position += transform.right * moveSpeed;
         }
 
-        if (Input.GetKey(KeyCode.E))
-        {
-            Debug.Log("Spawn");
-            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "SmallBolt"),
-                transform.position + transform.forward + new Vector3(0, 0, 0.3f),
-                Quaternion.LookRotation(transform.forward) * Quaternion.AngleAxis(-90, new Vector3(1, 0, 0)));
-        }
-
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            Debug.Log("RIG");
-            //Rotate the sprite about the Y axis in the positive direction
-            transform.Rotate(new Vector3(0, 1, 0) * Time.deltaTime * mouseSpeed, Space.World);
+            transform.Rotate(Vector3.up * Time.deltaTime * mouseSpeed, Space.World);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            //Rotate the sprite about the Y axis in the negative direction
-            transform.Rotate(new Vector3(0, -1, 0) * Time.deltaTime * mouseSpeed, Space.World);
+            transform.Rotate(-Vector3.up * Time.deltaTime * mouseSpeed, Space.World);
         }
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            Debug.Log("RIG");
-            //Rotate the sprite about the Y axis in the positive direction
-            transform.Rotate(new Vector3(-1, 0, 0) * Time.deltaTime * mouseSpeed, Space.World);
+            transform.Rotate(transform.right * Time.deltaTime * mouseSpeed, Space.World);
         }
 
         if (Input.GetKey(KeyCode.DownArrow))
         {
             //Rotate the sprite about the Y axis in the negative direction
-            transform.Rotate(new Vector3(1, 0,0 ) * Time.deltaTime * mouseSpeed, Space.World);
+            transform.Rotate(-transform.right * Time.deltaTime * mouseSpeed, Space.World);
         }
     }
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7489032423566589845}
   - component: {fileID: 7489032423566589849}
   - component: {fileID: 325034177091184428}
-  - component: {fileID: 3359237437667340204}
+  - component: {fileID: 3079212830512466484}
   m_Layer: 0
   m_Name: Detail_MainCore
   m_TagString: Draggable
@@ -131,11 +131,11 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 3359237437667340204}
+  - {fileID: 3079212830512466484}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &3359237437667340204
+--- !u!114 &3079212830512466484
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,10 +144,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7489032423566589847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 0
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0

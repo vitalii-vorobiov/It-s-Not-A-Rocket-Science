@@ -9,10 +9,10 @@ public class DetailsSpawner : MonoBehaviour
 {
     [SerializeField] private string prefabName;
     private GameObject currentInstantiatedGO;
-    void Start()
-    {
-        currentInstantiatedGO = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", prefabName), transform.position, Quaternion.identity);
-    }
+    // void Start()
+    // {
+    //     currentInstantiatedGO = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", prefabName), transform.position, Quaternion.identity);
+    // }
 
     private void OnTriggerExit(Collider other)
     {
