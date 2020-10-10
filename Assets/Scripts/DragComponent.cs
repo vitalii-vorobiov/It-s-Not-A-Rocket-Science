@@ -19,7 +19,7 @@ public class DragComponent : MonoBehaviour
             if (Physics.Raycast(transform.position, transform.forward, out hit) &&
                 hit.transform.CompareTag("Draggable"))
             {
-                if (hittedGameObject != hit.transform.gameObject)
+                if (hittedGameObject != hit.transform.gameObject && hittedGameObject != null)
                 {
                     hittedGameObject.GetComponent<DraggableObject>().Deselect();
                 }
