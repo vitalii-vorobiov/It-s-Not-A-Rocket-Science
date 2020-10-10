@@ -11,7 +11,7 @@ public class UIController : Singleton<UIController> {
     [SerializeField] private GameObject setupPanel;
     [SerializeField] private GameObject gamePanel;
 
-    [SerializeField] private Text mainGameText;
+    [SerializeField] private Text ToolButtonText;
     
 
     private void Awake() {
@@ -20,7 +20,7 @@ public class UIController : Singleton<UIController> {
     }
 
     private void Start() {
-        SelectBuilding();
+        ToolButtonText.text = "Drag";
     }
 
     public void OpenSettings() {
@@ -54,15 +54,12 @@ public class UIController : Singleton<UIController> {
         gamePanel.SetActive(false);
     }
 
-    public void SelectWelding() {
-        mainGameText.text = "Welding mode selected";
-    }
-
-    public void SelectBuilding() {
-        mainGameText.text = "Building mode selected";
-    }
-
-    public void SelectDrilling() {
-        mainGameText.text = "Drilling mode selected";
+    public void ToggleTool() {
+        if (ToolButtonText.text == "Drag") {
+            ToolButtonText.text = "Wrench";
+        } else {
+            ToolButtonText.text = "Drag";
+        }
+        AR_Player_Controller.Instance.ToggleTool();
     }
 }
