@@ -37,13 +37,14 @@ public class WrenchComponent : MonoBehaviour
                         bool bolt_instatiate = false;
                         if (hitList[0].transform.parent && hitList[0].transform.parent.CompareTag("BindingCore"))
                         {
-                            hitList[1].transform.SetParent(hitList[0].transform.parent);
+                            
+                            hitList[1].transform.GetComponent<PhotonView>().RPC("SetBuldingCoreAsParent", RpcTarget.AllBuffered);
                             bolt_instatiate = true;
                         }
                         else if (hitList[1].transform.parent && hitList[1].transform.parent.CompareTag("BindingCore"))
                         {
+                            hitList[0].transform.GetComponent<PhotonView>().RPC("SetBuldingCoreAsParent", RpcTarget.AllBuffered);
                             bolt_instatiate = true;
-                            hitList[0].transform.SetParent(hitList[1].transform.parent);
                         }
 
                         if (bolt_instatiate)
