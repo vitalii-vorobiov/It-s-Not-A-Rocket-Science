@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 public class DragComponent : MonoBehaviour
@@ -21,17 +22,17 @@ public class DragComponent : MonoBehaviour
             {
                 if (hittedGameObject != hit.transform.gameObject && hittedGameObject != null)
                 {
-                    hittedGameObject.GetComponent<DraggableObject>().Deselect();
+                    hittedGameObject.GetComponent<PhotonView>().RPC("Desselect", RpcTarget.AllBuffered);;
                 }
                 
                 hittedGameObject = hit.transform.gameObject;
-                hittedGameObject.GetComponent<DraggableObject>().Select();
+                hittedGameObject.GetComponent<PhotonView>().RPC("Select", RpcTarget.AllBuffered);
             }
             else
             {
                 if (hittedGameObject != null)
                 {
-                    hittedGameObject.GetComponent<DraggableObject>().Deselect();
+                    hittedGameObject.GetComponent<PhotonView>().RPC("Deselect", RpcTarget.AllBuffered);
                     hittedGameObject = null;
                 }
             }
@@ -40,6 +41,7 @@ public class DragComponent : MonoBehaviour
             {
                 if (isValidTouch)
                 {
+                    hittedGameObject.GetComponent<DraggableObject>().RequestOwnerChange();
                     currentlyDraggedGameObject = hittedGameObject;
                 }
             }

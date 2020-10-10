@@ -24,7 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="67e5d195-16f5-46d6-9d28-3dc36408922e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/Detail_MainCore.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/Detail_MainCore.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/Detail_Plate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/Detail_Plate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DragComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DragComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DraggableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DraggableObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +68,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AR_Player_Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ARController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DraggableObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragComponent.cs" />
       </list>
     </option>
@@ -126,7 +130,8 @@
       <workItem from="1602312047826" duration="10512000" />
       <workItem from="1602346309295" duration="229000" />
       <workItem from="1602346899105" duration="9542000" />
-      <workItem from="1602359641489" duration="4093000" />
+      <workItem from="1602359641489" duration="4621000" />
+      <workItem from="1602366080441" duration="501000" />
     </task>
     <servers />
   </component>
