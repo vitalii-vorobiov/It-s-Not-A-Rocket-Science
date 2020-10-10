@@ -163,4 +163,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea785a6995a42a2789d8e534f24e8e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bindingCoreTransform: {fileID: 0}

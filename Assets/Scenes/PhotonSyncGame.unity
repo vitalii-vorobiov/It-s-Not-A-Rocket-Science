@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 486440050}
   - component: {fileID: 486440049}
   m_Layer: 0
-  m_Name: ObjectSpawner (1)
+  m_Name: ObjectSpawner_Plate
   m_TagString: Untagged
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bac3a8456ade1f90f8f9f46faf104d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabName: Detail_MainCore
+  prefabName: Detail_Plate
 --- !u!135 &486440050
 SphereCollider:
   m_ObjectHideFlags: 0
