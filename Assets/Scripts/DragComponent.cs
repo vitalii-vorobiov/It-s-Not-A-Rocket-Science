@@ -9,12 +9,18 @@ public class DragComponent : MonoBehaviour
     private GameObject currentlyDraggedGameObject;
     private GameObject hittedGameObject;
 
+    public FixedJoystick FixedJoystick;
+    
     // Update is called once per frame
 
     private void OnDisable() {
         if (hittedGameObject != null) {
             hittedGameObject.GetComponent<PhotonView>().RPC("Deselect", RpcTarget.AllBuffered);
         }
+    }
+
+    private void Start() {
+        FixedJoystick = GameObject.FindObjectOfType<FixedJoystick>().GetComponent<FixedJoystick>();
     }
 
     void Update()
@@ -64,15 +70,12 @@ public class DragComponent : MonoBehaviour
             if (isValidTouch)
             {
                 currentlyDraggedGameObject.transform.position = transform.position + transform.forward* 1f;
+                currentlyDraggedGameObject.transform.eulerAngles = new Vector3( 0, Mathf.Atan2( FixedJoystick.Vertical, FixedJoystick.Horizontal) * 180 / Mathf.PI, 0 );
             }
             else
             {
                 currentlyDraggedGameObject = null;
             }
         }
-
-
-
-        
     }
 }
