@@ -48,6 +48,7 @@ public class UIController : Singleton<UIController> {
         if (PhotonNetwork.IsMasterClient)
         {
             PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "BindingCore"), Vector3.zero, Quaternion.identity);
+            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Terminal"), Vector3.zero, Quaternion.identity);
         }
     }
 

@@ -6,7 +6,9 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ARButton.cs" t="Include" />
         <e p="ChangeOrigin.cs" t="Include" />
+        <e p="ChangeOriginAndPos.cs" t="Include" />
         <e p="ChangeParentManager.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="Shaders" t="Include">
@@ -384,6 +386,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ARController.cs" t="Include" />
+          <e p="ARGUIComponent.cs" t="Include" />
           <e p="AR_PlayerManager.cs" t="Include" />
           <e p="AR_Player_Controller.cs" t="Include" />
           <e p="AppController.cs" t="Include" />
@@ -407,6 +410,7 @@
           <e p="UIController.cs" t="Include" />
           <e p="WrenchComponent.cs" t="Include" />
         </e>
+        <e p="TerminalController.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
