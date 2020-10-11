@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Photon.Pun;
 using UnityEngine;
@@ -9,6 +10,13 @@ public class DragComponent : MonoBehaviour
     private GameObject hittedGameObject;
 
     // Update is called once per frame
+
+    private void OnDisable() {
+        if (hittedGameObject != null) {
+            hittedGameObject.GetComponent<PhotonView>().RPC("Deselect", RpcTarget.AllBuffered);
+        }
+    }
+
     void Update()
     {
         RaycastHit hit;
