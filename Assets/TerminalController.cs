@@ -19,7 +19,6 @@ public class TerminalController : MonoBehaviour
     void Start()
     {
         _animator = GetComponent<Animator>();
-        transform.localPosition = new Vector3(1.652f, -0.158f, 0);
     }
 
     public void FixedUpdate()
