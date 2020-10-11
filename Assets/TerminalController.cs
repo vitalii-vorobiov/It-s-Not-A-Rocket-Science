@@ -45,18 +45,23 @@ public class TerminalController : MonoBehaviour
     [PunRPC]
     public void Key1()
     {
+        Debug.Log("Key");
         _animator.SetTrigger("Key1Pressed");
     }
     
     [PunRPC]
     public void Key2()
     {
+        Debug.Log("Key2");
+
         _animator.SetTrigger("Key2Pressed");
     }
 
     [PunRPC]
     public void MainButton()
     {
+        Debug.Log("Main");
+
         _animator.SetTrigger("PushButton");
     }
 }
