@@ -8,6 +8,8 @@ TagManager:
   - BindingCore
   - CustomOrigin
   - Transparent
+  - UIController
+  - BindingCoreDraggable
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - 
   - 
   - NotVisibleBySelfAR
-  - 
+  - NotVisibleByRaycast
   - 
   - 
   - 

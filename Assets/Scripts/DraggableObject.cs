@@ -31,8 +31,8 @@ public class DraggableObject : MonoBehaviour {
         renderer.material.SetColor("_Color", color);
     }
 
-    public void RequestOwnerChange()
-    {
-        PV.RequestOwnership();
+    public void RequestOwnerChange() {
+        if (!PV.IsMine) { PV.RequestOwnership(); }
     }
+    
 }

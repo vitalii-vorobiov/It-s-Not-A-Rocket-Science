@@ -22,17 +22,21 @@ public class DragComponent : MonoBehaviour
             {
                 if (hittedGameObject != hit.transform.gameObject && hittedGameObject != null)
                 {
-                    hittedGameObject.GetComponent<PhotonView>().RPC("Desselect", RpcTarget.AllBuffered);;
+                    hittedGameObject.GetComponent<PhotonView>().RPC("Deselect", RpcTarget.AllBuffered);
+                    // hittedGameObject.GetComponent<DraggableObject>().Deselect();
                 }
                 
                 hittedGameObject = hit.transform.gameObject;
                 hittedGameObject.GetComponent<PhotonView>().RPC("Select", RpcTarget.AllBuffered);
+                // hittedGameObject.GetComponent<DraggableObject>().Select();
+
             }
             else
             {
                 if (hittedGameObject != null)
                 {
                     hittedGameObject.GetComponent<PhotonView>().RPC("Deselect", RpcTarget.AllBuffered);
+                    // hittedGameObject.GetComponent<DraggableObject>().Deselect();
                     hittedGameObject = null;
                 }
             }

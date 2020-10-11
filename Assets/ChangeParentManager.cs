@@ -8,5 +8,6 @@ public class ChangeParentManager : MonoBehaviour
     [PunRPC]
     void SetBuldingCoreAsParent(){
 		transform.SetParent(GameObject.FindWithTag("BindingCore").transform);
-	}
+		transform.tag = "BindingCoreDraggable";
+    }
 }

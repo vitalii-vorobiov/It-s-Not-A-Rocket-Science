@@ -12,15 +12,20 @@ public class UIController : Singleton<UIController> {
     [SerializeField] private GameObject gamePanel;
 
     [SerializeField] private Text ToolButtonText;
-    
 
+    private AR_Player_Controller GO_AR_Player_Controller;
     private void Awake() {
         gamePanel.SetActive(false);
         settingsPanel.SetActive(false);
     }
 
     private void Start() {
-        ToolButtonText.text = "Drag";
+        // ToolButtonText.text = "Drag";
+        ToolButtonText.text     = GO_AR_Player_Controller.current_active;
+    }
+
+    public void InitializePlayer() {
+        GO_AR_Player_Controller = GameObject.FindWithTag("Player").GetComponent<AR_Player_Controller>();
     }
 
     public void OpenSettings() {
@@ -55,11 +60,8 @@ public class UIController : Singleton<UIController> {
     }
 
     public void ToggleTool() {
-        if (ToolButtonText.text == "Drag") {
-            ToolButtonText.text = "Wrench";
-        } else {
-            ToolButtonText.text = "Drag";
-        }
-        AR_Player_Controller.Instance.ToggleTool();
+        GO_AR_Player_Controller.ToggleTool();
+        ToolButtonText.text = GO_AR_Player_Controller.current_active;
+
     }
 }

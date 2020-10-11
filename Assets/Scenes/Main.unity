@@ -197,7 +197,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 1186769470}
   prefab: {fileID: 7859694269163884724, guid: aa44d06c1959140088977f36d7c2f9e9, type: 3}
-  debugText: {fileID: 0}
   isWeld: 0
   isBuild: 0
   isDrill: 0
@@ -1823,7 +1822,7 @@ GameObject:
   - component: {fileID: 7159483551267373218}
   m_Layer: 5
   m_Name: UIController
-  m_TagString: Untagged
+  m_TagString: UIController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

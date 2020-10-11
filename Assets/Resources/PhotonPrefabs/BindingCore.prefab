@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1287644796953349857}
   m_Layer: 0
   m_Name: Detail_Core
-  m_TagString: Draggable
+  m_TagString: BindingCoreDraggable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287644796953349856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.496457, y: -0.6460614, z: -3.708106}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.27583852, y: 0.9925779, z: 0.31142}
   m_Children: []
   m_Father: {fileID: 3277872365604362634}
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 3277872365604362634}
   - component: {fileID: 3277872365604362628}
   - component: {fileID: 3277872365604362629}
-  - component: {fileID: -3129768093224309007}
+  - component: {fileID: 465276455705743737}
   m_Layer: 0
   m_Name: BindingCore
   m_TagString: BindingCore
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &-3129768093224309007
+--- !u!114 &465276455705743737
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,6 +204,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3277872365604362631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49634084a8c74fa4ba02b77d0566315c, type: 3}
+  m_Script: {fileID: 11500000, guid: 717e9140ea6054e26bc1d74b41a325bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0.2, z: 0}

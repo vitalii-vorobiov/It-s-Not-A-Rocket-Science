@@ -26,13 +26,18 @@ public class WrenchComponent : MonoBehaviour
             // }
 
             System.Array.Sort(hitList, (x, y) => x.distance.CompareTo(y.distance));
-            if (hitList[0].transform.CompareTag("Draggable") && hitList[1].transform.CompareTag("Draggable"))
+            if (
+                (hitList[0].transform.CompareTag("Draggable") && hitList[1].transform.CompareTag("Draggable")) ||
+                (hitList[0].transform.CompareTag("Draggable") && hitList[1].transform.CompareTag("BindingCoreDraggable")) ||
+                (hitList[0].transform.CompareTag("BindingCoreDraggable") && hitList[1].transform.CompareTag("BindingCoreDraggable")) ||
+                (hitList[0].transform.CompareTag("BindingCoreDraggable") && hitList[1].transform.CompareTag("Draggable"))
+                )
             {
                 _collisionRegistry = hitList[0].transform.GetComponent<ComponentCollisionRegistry>();
                 if (_collisionRegistry.Contains(hitList[0].transform.gameObject) &&
                     _collisionRegistry.Contains(hitList[1].transform.gameObject))
                 {
-                    if (Input.GetKeyDown(KeyCode.E))
+                    if (Input.touchCount > 0 && !Input.GetTouch(0).position.IsPointOverUiObject())
                     {
                         bool bolt_instatiate = false;
                         if (hitList[0].transform.parent && hitList[0].transform.parent.CompareTag("BindingCore"))

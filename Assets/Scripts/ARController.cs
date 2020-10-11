@@ -19,9 +19,7 @@ public class ARController : Singleton<ARController> {
     private        Coroutine          mainGameCoroutine;
     private static List<ARRaycastHit> s_hits = new List<ARRaycastHit>();
     private        DraggableObject    draggableObject;
-
-    public Text  debugText;
-
+    
     public bool isWeld;
     public bool isBuild;
     public bool isDrill;
