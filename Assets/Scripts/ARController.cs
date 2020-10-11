@@ -14,7 +14,7 @@ public class ARController : Singleton<ARController> {
     
     private        ARRaycastManager   raycastManager;
     private        ARPlaneManager     planeManager;
-    private        GameObject         spawnedPrefab;
+    public         GameObject         spawnedPrefab;
     private        Coroutine          sceneSetupCoroutine;
     private        Coroutine          mainGameCoroutine;
     private static List<ARRaycastHit> s_hits = new List<ARRaycastHit>();

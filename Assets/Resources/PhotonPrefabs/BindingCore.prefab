@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1287644796953349870}
   - component: {fileID: 1287644796953349857}
   - component: {fileID: 8486408348808176463}
+  - component: {fileID: 1913805899626462812}
   m_Layer: 0
   m_Name: Detail_Core
   m_TagString: BindingCoreDraggable
@@ -124,6 +125,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5293335269154574413, guid: 359ea6d580ac347cabc4c09d35f1fc98, type: 3}
+--- !u!111 &1913805899626462812
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287644796953349856}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 694510e8354d64fb684edae26308e3c7, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &3277872365604362631
 GameObject:
   m_ObjectHideFlags: 0

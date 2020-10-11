@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_It-s-Not-A-Rocket-Science.1232765504.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ARButton.cs" t="Include" />
-        <e p="ChangeOrigin.cs" t="Include" />
-        <e p="ChangeOriginAndPos.cs" t="Include" />
-        <e p="ChangeParentManager.cs" t="Include" />
         <e p="Joystick Pack" t="Include">
           <e p="Examples" t="Include">
             <e p="JoystickPlayerExample.cs" t="Include" />
@@ -48,6 +43,7 @@
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
             <e p="Code" t="Include">
+              <e p="changes-chat.txt" t="Include" />
               <e p="ChannelCreationOptions.cs" t="Include" />
               <e p="ChannelWellKnownProperties.cs" t="Include" />
               <e p="ChatAppSettings.cs" t="Include" />
@@ -62,7 +58,6 @@
               <e p="ChatUserStatus.cs" t="Include" />
               <e p="IChatClientListener.cs" t="Include" />
               <e p="PhotonChat.asmdef" t="Include" />
-              <e p="changes-chat.txt" t="Include" />
             </e>
             <e p="Demos" t="Include">
               <e p="Common" t="Include">
@@ -83,20 +78,21 @@
             </e>
           </e>
           <e p="PhotonLibs" t="Include">
+            <e p="changes-library.txt" t="Include" />
+            <e p="netstandard2.0" t="Include">
+              <e p="Photon3Unity3D.xml" t="Include" />
+            </e>
             <e p="Photon3Unity3D.xml" t="Include" />
             <e p="WebSocket" t="Include">
               <e p="PhotonWebSocket.asmdef" t="Include" />
               <e p="SocketWebTcp.cs" t="Include" />
               <e p="WebSocket.cs" t="Include" />
             </e>
-            <e p="changes-library.txt" t="Include" />
-            <e p="netstandard2.0" t="Include">
-              <e p="Photon3Unity3D.xml" t="Include" />
-            </e>
           </e>
           <e p="PhotonRealtime" t="Include">
             <e p="Code" t="Include">
               <e p="AppSettings.cs" t="Include" />
+              <e p="changes-realtime.txt" t="Include" />
               <e p="ConnectionHandler.cs" t="Include" />
               <e p="Extensions.cs" t="Include" />
               <e p="FriendInfo.cs" t="Include" />
@@ -112,7 +108,6 @@
               <e p="RoomInfo.cs" t="Include" />
               <e p="SupportLogger.cs" t="Include" />
               <e p="WebRpc.cs" t="Include" />
-              <e p="changes-realtime.txt" t="Include" />
             </e>
             <e p="Demos" t="Include">
               <e p="DemoLoadBalancing" t="Include">
@@ -121,6 +116,7 @@
             </e>
           </e>
           <e p="PhotonUnityNetworking" t="Include">
+            <e p="changelog.txt" t="Include" />
             <e p="Code" t="Include">
               <e p="CustomTypes.cs" t="Include" />
               <e p="Editor" t="Include">
@@ -346,6 +342,8 @@
               </e>
               <e p="WebRpcImplementationExample.cs" t="Include" />
             </e>
+            <e p="link.xml" t="Include" />
+            <e p="readme.txt" t="Include" />
             <e p="UtilityScripts" t="Include">
               <e p="Culling" t="Include">
                 <e p="CullArea.cs" t="Include" />
@@ -403,9 +401,6 @@
                 <e p="TextToggleIsOnTransition.cs" t="Include" />
               </e>
             </e>
-            <e p="changelog.txt" t="Include" />
-            <e p="link.xml" t="Include" />
-            <e p="readme.txt" t="Include" />
           </e>
         </e>
         <e p="Polygonal Particles" t="Include">
@@ -415,13 +410,15 @@
             </e>
           </e>
         </e>
-        <e p="RandomHelmetColo.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="AppController.cs" t="Include" />
+          <e p="AR_Player_Controller.cs" t="Include" />
+          <e p="AR_PlayerManager.cs" t="Include" />
           <e p="ARController.cs" t="Include" />
           <e p="ARGUIComponent.cs" t="Include" />
-          <e p="AR_PlayerManager.cs" t="Include" />
-          <e p="AR_Player_Controller.cs" t="Include" />
-          <e p="AppController.cs" t="Include" />
+          <e p="ChangeOrigin.cs" t="Include" />
+          <e p="ChangeOriginAndPos.cs" t="Include" />
+          <e p="ChangeParentManager.cs" t="Include" />
           <e p="ComponentCollisionRegistry.cs" t="Include" />
           <e p="DetailsSpawner.cs" t="Include" />
           <e p="DragComponent.cs" t="Include" />
@@ -436,6 +433,7 @@
           <e p="Menu.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />
           <e p="PlayerListItem.cs" t="Include" />
+          <e p="RandomHelmetColo.cs" t="Include" />
           <e p="RoomListItem.cs" t="Include" />
           <e p="RoomManager.cs" t="Include" />
           <e p="TestRayCast.cs" t="Include" />
@@ -476,20 +474,22 @@
         </e>
       </e>
       <e p="It-s-Not-A-Rocket-Science.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
       <e p="PhotonChat.csproj" t="IncludeRecursive" />
       <e p="PhotonRealtime.csproj" t="IncludeRecursive" />
+      <e p="PhotonUnityNetworking.csproj" t="IncludeRecursive" />
       <e p="PhotonUnityNetworking.Demos.csproj" t="IncludeRecursive" />
       <e p="PhotonUnityNetworking.Editor.csproj" t="IncludeRecursive" />
+      <e p="PhotonUnityNetworking.Utilities.csproj" t="IncludeRecursive" />
       <e p="PhotonUnityNetworking.Utilities.Culling.Editor.csproj" t="IncludeRecursive" />
       <e p="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj" t="IncludeRecursive" />
-      <e p="PhotonUnityNetworking.Utilities.csproj" t="IncludeRecursive" />
-      <e p="PhotonUnityNetworking.csproj" t="IncludeRecursive" />
       <e p="PhotonWebSocket.csproj" t="IncludeRecursive" />
       <e p="PunDemos.DemoHubEditor.csproj" t="IncludeRecursive" />
       <e p="PunDemos.DemoSlotcarEditor.csproj" t="IncludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />
-      <e p="obj" t="ExcludeRecursive" />
-      <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_It-s-Not-A-Rocket-Science.1938573781.00" t="ExcludeRecursive" />
   </component>
 </project>

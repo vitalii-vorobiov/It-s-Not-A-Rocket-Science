@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Photon.Pun;
 using UnityEngine;
 
@@ -14,6 +15,8 @@ public class TerminalController : MonoBehaviour
     private bool key2;
     public Animation anim;
 
+
+    public GameObject prefabAnimation;
     
     private Animator _animator;
     void Start()
@@ -61,7 +64,12 @@ public class TerminalController : MonoBehaviour
     public void MainButton()
     {
         Debug.Log("Main");
-
         _animator.SetTrigger("PushButton");
+        Debug.Log("AAAAAAAAAAAAAAAA");
+        GameObject objPos = GameObject.FindGameObjectWithTag("CapsulePod");
+        GameObject core   = GameObject.FindGameObjectWithTag("BindingCore");
+        Instantiate(prefabAnimation, objPos.transform.position, Quaternion.identity);
+        objPos.GetComponent<Animation>().enabled = true;
+        core.GetComponent<Animation>().enabled = true;
     }
 }

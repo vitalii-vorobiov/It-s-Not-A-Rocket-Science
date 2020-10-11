@@ -23,8 +23,9 @@ public class AR_Player_Controller  : MonoBehaviour
         followedGameObject = GameObject.FindWithTag("MainCamera");
         if (PV.IsMine) {
             gameObject.tag                         = "Player";
-            gameObject.layer                       = 8;
+            // gameObject.layer                       = 8;
             transform.GetChild(0).gameObject.layer = 8;
+            transform.GetChild(1).gameObject.layer = 8;
         }
     }
 
