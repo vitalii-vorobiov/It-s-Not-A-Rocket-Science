@@ -25,8 +25,8 @@
     <list default="true" id="67e5d195-16f5-46d6-9d28-3dc36408922e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.It-s-Not-A-Rocket-Science/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ARGUIComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ARGUIComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TerminalController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TerminalController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AR Default Plane.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AR Default Plane.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/TerminalController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ARGUIComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/RandomHelmetColo.cs" />
       </list>
     </option>
   </component>
@@ -136,6 +137,7 @@
       <workItem from="1602359641489" duration="4621000" />
       <workItem from="1602366080441" duration="501000" />
       <workItem from="1602385413990" duration="4148000" />
+      <workItem from="1602406496197" duration="216000" />
     </task>
     <servers />
   </component>
